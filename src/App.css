@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mainPage {
+  align-items: left;
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+}
+.header {
+  align-items: left;
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+}
+.recentSearch {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: DodgerBlue;
+}
+
+.recentSearch > div {
+  background-color: #f1f1f1;
+  margin: 5px;
+  text-align: left;
+  line-height: 45px;
+  font-size: 20px;
+}
+
+.loading {
+  background-color: #ffffff;
+  background-image: url("http://loadinggif.com/images/image-selection/3.gif");
+  background-size: 25px 25px;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.selectedMovies {
+  display: flex;
+  flex-wrap: wrap;
+}
+.selectedMovie {
+  border: 2px solid green;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 25px;
+}
+.inputField {
+  padding: 10px;
+  width: 400px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.searchScreen {
+  height: 300px;
+  border: 2px solid #ccc4c4;
+  padding: 5px;
+}
